@@ -2,12 +2,9 @@ package code.template;
 
 import code.CodeUtil;
 import code.LineCode;
-import com.sun.org.apache.bcel.internal.classfile.Code;
 
-import javax.print.attribute.standard.MediaSize;
 import java.lang.reflect.Modifier;
 import java.util.List;
-import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 
 public class SimpleCurdFunctionMain extends BaseClassCode {
@@ -74,13 +71,5 @@ public class SimpleCurdFunctionMain extends BaseClassCode {
     @Override
     public List<LineCode> getImports() {
         return imports;
-    }
-
-    public static void main(String[] args) {
-
-        SimpleCurdFunctionMain t = new SimpleCurdFunctionMain("com.qiukai.test", "test");
-        t.init(SimpleCurdType.APP_FUNCTION_MAIN.get(), null);
-
-        System.out.println(t);
     }
 }

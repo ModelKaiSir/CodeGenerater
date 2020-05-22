@@ -1,6 +1,5 @@
 package code.template;
 
-import code.LineCode;
 import code.LineCode.TypeCode;
 
 /**

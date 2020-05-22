@@ -3,12 +3,8 @@ package code.template;
 import code.ClassCode;
 import code.CodeUtil;
 import code.LineCode;
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import javafx.scene.layout.Pane;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-import java.lang.reflect.Type;
 import java.util.List;
 import java.util.stream.Collectors;
 

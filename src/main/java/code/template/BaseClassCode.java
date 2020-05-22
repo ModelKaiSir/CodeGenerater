@@ -3,12 +3,9 @@ package code.template;
 import code.ClassCode;
 import code.CodeUtil;
 import code.LineCode;
-import code.LineCode.SimpleCode;
-import com.google.common.collect.Lists;
 
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 
 public abstract class BaseClassCode implements ClassCode {

@@ -25,16 +25,4 @@ public class SimpleCurdTemplate implements CodeTemplate {
         curdFunction = new SimpleCurdFunction(packages, tableName);
         curdFunction.init(SimpleCurdType.APP_FUNCTION.get(), null);
     }
-
-    public static void main(String[] args) {
-
-        SimpleCurdTemplate t = new SimpleCurdTemplate();
-        t.init("com.qiukai.test", "com.qiukai.test.Test.class", "test", null);
-
-        for (ClassCode classCode: t.toClass()){
-
-            System.out.println(classCode);
-        }
-    }
-
 }

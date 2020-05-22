@@ -2,14 +2,12 @@ package code;
 
 import java.util.List;
 
+/**
+ * 类级别代码
+ * @author QiuKai
+ */
 public interface ClassCode extends LineCode{
 	
-	public static final String REPLACE_CODES = "[CODES]";
-	public static final String REPLACE_INNTERCLASS = "[INNTERCLASS]";
-	public static final String FORMAT_EXTENDS = " extends %s";
-	public static final String FORMAT_IMPLEMENTS = " implements %s";
-	public static final String FORMAT_CLASS = "public class %s {%n"+REPLACE_CODES+"%n"+REPLACE_INNTERCLASS+"%n}";
-
 	/**
 	 * 初始化
 	 * @param extend
